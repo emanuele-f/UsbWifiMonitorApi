@@ -3,6 +3,8 @@ USB WiFi Monitor API
 
 This repository contains the API specification of the [USB WiFi Monitor](https://play.google.com/store/apps/details?id=com.usbwifimon.app) app, along with a sample app.
 
+USB WiFi Monitor is an Android app which allows you to capture raw WiFi frames in the 2.4 GHz band on stock kernels without root.
+
 ## The API
 
 USB WiFi Monitor exposes an Intent-based API to control the capture. This is available since version 1.2.0.
