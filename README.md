@@ -56,7 +56,7 @@ Here is the list of supported paramters.
 
 | Parameter               | Type   | Ver | Default | Value                                                                       |
 |-------------------------|--------|-----|-------- |-----------------------------------------------------------------------------|
-| channel                 | int    |   4 |      -1 | fixed channel (1-11), or channel hope mode (-1)                             |
+| channel                 | int    |   4 |      -1 | fixed channel (1-11), or channel hop mode (-1)                             |
 | channel_width           | int    |   4 |       1 | specifies the channel width - 0: no HT, 1: HT20, 2: HT40-, 3: HT40+         |
 | pcap_name               | string |   4 |         | dump traffic to a PCAP file, at /sdcard/Download/UsbWifiMonitor/*pcap_name* |
 | broadcast_receiver      | string |   4 |         | component name of a BroadcastReceiver for status updates, see below         |
