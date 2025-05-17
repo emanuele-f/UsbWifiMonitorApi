@@ -12,7 +12,7 @@ USB WiFi Monitor exposes an Intent-based API to control the capture. This is ava
 Here is, for example, how to start the capture via adb:
 
 ```bash
-adb shell am start -e action [ACTION] start -n com.usbwifimon.app/.CaptureCtrl
+adb shell am start -e action [ACTION] -n com.usbwifimon.app/.CaptureCtrl
 ```
 
 where ACTION is one of:
